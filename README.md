@@ -13,7 +13,7 @@ Drag the **ContentWithMoreMenuView.swift** and **ContentWithMoreMenuView.xib**
 files into your project and add the **BT_Plus** and **BT_Plus_Shadow** images to
 your assets.
 
-Then, in a **UIViewController**, create a **ContentWithMoreMenuView**,
+Then, in a `UIViewController`, create a `ContentWithMoreMenuView`,
 set its constraints and add it to your view as follows:
 
 ```Swift
