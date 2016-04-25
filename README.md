@@ -3,7 +3,7 @@
 ## Summary
 
 Simple Swift project demonstrating how the more menu was made for **francetv zoom**,
-using `CAShapeLayer` and `CABasicAnimation`
+using `CAShapeLayer` and `CABasicAnimation`.
 
 ![](Example.gif)
 
