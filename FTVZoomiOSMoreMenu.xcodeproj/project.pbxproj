@@ -12,6 +12,8 @@
 		5C227A8E1CCE162700ACA9C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C227A8C1CCE162700ACA9C5 /* Main.storyboard */; };
 		5C227A901CCE162700ACA9C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C227A8F1CCE162700ACA9C5 /* Assets.xcassets */; };
 		5C227A931CCE162700ACA9C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C227A911CCE162700ACA9C5 /* LaunchScreen.storyboard */; };
+		5C227A9B1CCE1B2D00ACA9C5 /* ContentWithMoreMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C227A9A1CCE1B2D00ACA9C5 /* ContentWithMoreMenuView.swift */; };
+		5C227A9D1CCE1EE500ACA9C5 /* ContentWithMoreMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C227A9C1CCE1EE500ACA9C5 /* ContentWithMoreMenuView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5C227A8F1CCE162700ACA9C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C227A921CCE162700ACA9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C227A941CCE162700ACA9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C227A9A1CCE1B2D00ACA9C5 /* ContentWithMoreMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentWithMoreMenuView.swift; sourceTree = "<group>"; };
+		5C227A9C1CCE1EE500ACA9C5 /* ContentWithMoreMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentWithMoreMenuView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				5C227A881CCE162700ACA9C5 /* AppDelegate.swift */,
 				5C227A8A1CCE162700ACA9C5 /* ViewController.swift */,
+				5C227A9A1CCE1B2D00ACA9C5 /* ContentWithMoreMenuView.swift */,
+				5C227A9C1CCE1EE500ACA9C5 /* ContentWithMoreMenuView.xib */,
 				5C227A8C1CCE162700ACA9C5 /* Main.storyboard */,
 				5C227A8F1CCE162700ACA9C5 /* Assets.xcassets */,
 				5C227A911CCE162700ACA9C5 /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			files = (
 				5C227A931CCE162700ACA9C5 /* LaunchScreen.storyboard in Resources */,
 				5C227A901CCE162700ACA9C5 /* Assets.xcassets in Resources */,
+				5C227A9D1CCE1EE500ACA9C5 /* ContentWithMoreMenuView.xib in Resources */,
 				5C227A8E1CCE162700ACA9C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				5C227A8B1CCE162700ACA9C5 /* ViewController.swift in Sources */,
 				5C227A891CCE162700ACA9C5 /* AppDelegate.swift in Sources */,
+				5C227A9B1CCE1B2D00ACA9C5 /* ContentWithMoreMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +296,7 @@
 				5C227A991CCE162700ACA9C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

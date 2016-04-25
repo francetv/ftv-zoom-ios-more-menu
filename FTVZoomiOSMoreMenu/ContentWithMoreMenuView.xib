@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jCI-uY-vre" customClass="ContentWithMoreMenuView" customModule="FTVZoomiOSMoreMenu" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="161"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1wK-pq-Ncq" userLabel="Content panel">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="161"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etS-kF-hiW">
+                            <rect key="frame" x="75" y="70" width="150" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="5sy-kg-s1x"/>
+                                <constraint firstAttribute="height" constant="21" id="rRp-Uk-mKT"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="etS-kF-hiW" firstAttribute="centerY" secondItem="1wK-pq-Ncq" secondAttribute="centerY" id="11i-J4-hfG"/>
+                        <constraint firstItem="etS-kF-hiW" firstAttribute="centerX" secondItem="1wK-pq-Ncq" secondAttribute="centerX" id="2vh-dS-bVW"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="4gI-b5-5cx" userLabel="More panel">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="161"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menu Options" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5uK-bu-njR">
+                            <rect key="frame" x="75" y="70" width="150" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="nwf-FF-FVg"/>
+                                <constraint firstAttribute="width" constant="150" id="wem-qc-gab"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.019607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="5uK-bu-njR" firstAttribute="centerX" secondItem="4gI-b5-5cx" secondAttribute="centerX" id="dFj-18-yWX"/>
+                        <constraint firstItem="5uK-bu-njR" firstAttribute="centerY" secondItem="4gI-b5-5cx" secondAttribute="centerY" id="e2X-Qi-3Oh"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BT_Plus_Shadow" translatesAutoresizingMaskIntoConstraints="NO" id="XTQ-RC-rca">
+                    <rect key="frame" x="244" y="-6" width="58" height="63"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="63" id="55Z-Zd-gXP"/>
+                        <constraint firstAttribute="width" constant="58" id="8s9-gZ-ZZU"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QB5-2E-sw9" userLabel="Open more panel">
+                    <rect key="frame" x="252" y="4" width="43" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="43" id="1y9-Rg-SZK"/>
+                        <constraint firstAttribute="height" constant="43" id="Sag-Be-8Ty"/>
+                    </constraints>
+                    <state key="normal" image="BT_Plus">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onMoreButtonTapped" destination="jCI-uY-vre" eventType="touchUpInside" id="jqN-Ko-sp0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="XTQ-RC-rca" firstAttribute="top" secondItem="jCI-uY-vre" secondAttribute="top" constant="-6" id="0JW-zb-omk"/>
+                <constraint firstItem="4gI-b5-5cx" firstAttribute="leading" secondItem="jCI-uY-vre" secondAttribute="leading" id="9yz-MC-tdV"/>
+                <constraint firstAttribute="trailing" secondItem="1wK-pq-Ncq" secondAttribute="trailing" id="ELm-Tp-DcU"/>
+                <constraint firstItem="4gI-b5-5cx" firstAttribute="top" secondItem="jCI-uY-vre" secondAttribute="top" id="Mgx-Mc-Mm1"/>
+                <constraint firstItem="1wK-pq-Ncq" firstAttribute="leading" secondItem="jCI-uY-vre" secondAttribute="leading" id="TSN-fv-bXX"/>
+                <constraint firstItem="1wK-pq-Ncq" firstAttribute="top" secondItem="jCI-uY-vre" secondAttribute="top" id="YGP-Uy-Rzp"/>
+                <constraint firstAttribute="trailing" secondItem="XTQ-RC-rca" secondAttribute="trailing" constant="-2" id="jEh-UM-0I5"/>
+                <constraint firstAttribute="bottom" secondItem="1wK-pq-Ncq" secondAttribute="bottom" id="mq3-vI-gYD"/>
+                <constraint firstItem="QB5-2E-sw9" firstAttribute="top" secondItem="jCI-uY-vre" secondAttribute="top" constant="4" id="nSU-TZ-WYr"/>
+                <constraint firstAttribute="trailing" secondItem="QB5-2E-sw9" secondAttribute="trailing" constant="5" id="qFH-Wp-4ia"/>
+                <constraint firstAttribute="bottom" secondItem="4gI-b5-5cx" secondAttribute="bottom" id="wlB-ob-u4s"/>
+                <constraint firstAttribute="trailing" secondItem="4gI-b5-5cx" secondAttribute="trailing" id="zat-3b-aIc"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentPanel" destination="1wK-pq-Ncq" id="Rj3-J2-INc"/>
+                <outlet property="moreButton" destination="QB5-2E-sw9" id="WMa-N6-vfa"/>
+                <outlet property="morePanel" destination="4gI-b5-5cx" id="59R-jz-qCx"/>
+            </connections>
+            <point key="canvasLocation" x="199" y="223"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BT_Plus" width="43" height="43"/>
+        <image name="BT_Plus_Shadow" width="58" height="63"/>
+    </resources>
+</document>
