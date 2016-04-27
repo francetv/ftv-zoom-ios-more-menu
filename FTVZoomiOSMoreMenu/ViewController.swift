@@ -11,8 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
 
+        super.viewWillAppear(animated)
         addContentView()
     }
 
