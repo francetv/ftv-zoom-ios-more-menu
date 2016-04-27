@@ -7,7 +7,7 @@ using `CAShapeLayer` and `CABasicAnimation`.
 
 ![](Example.gif)
 
-## Use
+## Usage
 
 Drag the **ContentWithMoreMenuView.swift** and **ContentWithMoreMenuView.xib**
 files into your project and add the **BT_Plus** and **BT_Plus_Shadow** images to
@@ -38,3 +38,12 @@ private func addContentView() {
     view.setNeedsLayout()
 }
 ```
+
+## Example
+
+To try the example project, clone the repo, and run the project.
+
+## Requirements
+
+  + ARC
+  + iOS 8
