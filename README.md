@@ -17,11 +17,11 @@ Then, in a `UIViewController`, create a `ContentWithMoreMenuView`,
 set its constraints and add it to your view as follows:
 
 ```Swift
-override func viewDidAppear(animated: Bool) {
+override func viewWillAppear(animated: Bool) {
 
-    super.viewDidAppear(animated)
-    addContentView()
-}
+        super.viewWillAppear(animated)
+        addContentView()
+    }
 
 private func addContentView() {
 
