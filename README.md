@@ -1,5 +1,7 @@
 # francetv zoom More Menu Demo
 
+This project is part of [francetv zoom open source projects](https://github.com/francetv/zoom-public) (iOS, Android and Angular).
+
 ## Summary
 
 Simple Swift project demonstrating how the more menu was made for **francetv zoom**,
@@ -47,3 +49,7 @@ To try the example project, clone the repo, and run the project.
 
   + ARC
   + iOS 8
+
+## License
+
+  This project is available under the MIT license. See the LICENSE file for more info.
